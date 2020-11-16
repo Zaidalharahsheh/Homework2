@@ -14,18 +14,36 @@ nav{
 }
 img
 {
+ 
+   float: left;  
+            margin: 5px; 
+
     height: 200px;
     width: 200px;
 }
-.Zaid{
-    background-color: white;
-    margin-top: 80px;
-    width: 800px;
-    margin-left: 80px;
-  line-height: 1;
-padding-right: 80px;
 
+.Zaid.p1{
+ 
+ text-align: justify;      font-size: 25px; 
+    margin-right: 400px
+    ;
+    width: 600px;
+margin-left:100px ;
+ margin-bottom:400px ;
+  
+ background-color: white;
+padding: 100px;    margin-top: 100px;
+    height: 700px;
+ 
    
+}
+.Zaid{
+    margin:260px;
+    margin-left: 200px;
+    margin-top:120px;
+    background-color: white;
+    width: 600px;
+margin-left:100px ;
 }
 h2 {
     float: left;
@@ -41,11 +59,13 @@ h1{
     color: green;
 }
     .footer {
+      padding:15px ;
+        margin-top: 60px; ;
         position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
-        padding-top: 10px;
+        
         background-color: darkgrey;
      
         text-align: center;
